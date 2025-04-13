@@ -14,6 +14,8 @@ import SpaCenter from "./components/SpaCenters/SpaCenter";
 import Footer from "./components/Footer/Footer";
 import ClassesList from "./components/Classes/ClassesList";
 import Locations from "./components/Locations/Locations";
+import ManFitness from "./components/ManFitness/ManFitness";
+import WomanFitness from "./components/WomenFitness/WomenFitness";
 
 function App() {
   
@@ -36,6 +38,8 @@ function App() {
           <Route path="/transformations" element={<Transformations />} />
           <Route path="/spa-center" element={<SpaCenter />} />
           <Route path="/locations" element={<Locations />} />
+          <Route path="/manfitness" element={<ManFitness />} />
+          <Route path="/womenfitness" element={<WomanFitness />} />
         </Routes>
         <Footer />
       </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../assets/css/homepage.css';
 import {FaFacebookF , FaTwitter} from 'react-icons/fa'
+import { Link } from "react-router-dom";
 
 export default function Info() {
   return (
@@ -22,13 +23,13 @@ export default function Info() {
        
         <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
           <div className="card about-cardl mg-b2">
-            <a href="../Fitness Man Class/ManF.html">
+            <Link to="/manfitness">
               <img
                 src="https://s1.1zoom.me/b5050/76/Men_Muscle_Belly_Beautiful_547957_1920x1080.jpg"
                 alt="fitness man"
                 className="img-fluid"
               />
-            </a>
+            </Link>
             <div className="card-body">
               <div className="row">
                 <div className="col-xm-7 card-b">

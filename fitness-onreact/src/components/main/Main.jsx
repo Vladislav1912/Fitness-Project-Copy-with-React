@@ -17,7 +17,7 @@ export default function Main() {
         да влезеш в най-добрата си форма и да я задържиш завинаги.</h2>
       <div className="home-btn">
         <Link to="/locations"><button id='mainLink' className="btnr text-white btn" data-aos="fade-left" data-aos-duration="1000">ЛОКАЦИИ</button></Link>
-        <a href="../About Us/About.html"><button className="btnl bt" data-aos="fade-down" data-aos-duration="1000">НАУЧЕТЕ ПОВЕЧЕ</button></a>
+        <Link to="/about"><button className="btnl bt" data-aos="fade-down" data-aos-duration="1000">НАУЧЕТЕ ПОВЕЧЕ</button></Link>
       </div>
     </div>
     </div>
