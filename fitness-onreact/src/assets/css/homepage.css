@@ -90,6 +90,12 @@ justify-content: center;
     overflow: hidden;
     position: relative;
 }
+#mainLink{
+    font-weight: bold;
+}
+#mainLink:hover{
+    color: red;
+}
 .home-content{
     position: absolute;
     top: 50%;
@@ -451,6 +457,34 @@ color: red;
     font-size: 17px;
 }
 
+/* transformations */
+
+.text-box-2{
+    background-image: url('https://www.fzsportsacademy.com/wp-content/uploads/2018/07/banner02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px; 
+    color: white; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  text-align: center;
+  padding: 20px;
+}
+
+#text-box-text {
+    color: red;
+}
+
+.text-box-2 h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
 /* schedule */
 .table {
     width: 100%;
@@ -493,6 +527,38 @@ color: red;
     color: white;
   }
   
+/* spacenters */ 
+
+.spacenters{
+    background-image: url(https://victoria-spa.com/wp-content/uploads/2024/05/chernomorec_fitness_002.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.spacenters h3{
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: -0.5px;
+}
+.spacenters h2{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 35px;
+    
+    letter-spacing: -0.5px;
+    font-weight: bold;
+}
+
 /* contact */
 .contact{
     overflow: hidden;

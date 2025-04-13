@@ -31,8 +31,8 @@ export default function Navbar() {
           </li>
         </ul>
         <ul className="navbar-nav navbar-social">
-          <a href="https://www.facebook.com/C0deTricks"><FaFacebook/></a>
-          <a href="https://www.instagram.com/code0tricks/?hl=en"><FaInstagram/></a>
+          <i className="fab fa-facebook-f"><FaFacebook/></i>
+          <i className="fab fa-instagram"><FaInstagram/></i>
           <i className="fab fa-twitter"><FaTwitter/></i>
         </ul>
       </div>

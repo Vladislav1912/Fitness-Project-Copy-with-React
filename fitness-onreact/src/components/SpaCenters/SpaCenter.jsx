@@ -1,10 +1,11 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../assets/css/homepage.css" 
 export default function SpaCenter() {
   return (
     <div>
       
-      <div className="home-content text-center" id="home">
+      <div className="spacenters text-center">
         <h3 className="text-white" data-aos="fade-right" data-aos-duration="1000">
           СПА ЦЕНТЪР <br />
           WIZZTECH PROGRAMS
@@ -17,9 +18,9 @@ export default function SpaCenter() {
       
       <div className="row mt-5">
         {/* Left  */}
-        <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div className="col-lg-4  mb-4 mb-lg-0">
           <img
-            src="https://zeus.bg/wp-content/uploads/2019/03/IMG_7967-min.jpg"
+            src="https://www.wellton.com/storage/files/oasis.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
             alt="kami"
             data-aos="zoom-out-down"
@@ -72,7 +73,7 @@ export default function SpaCenter() {
             data-aos-delay="430"
           />
           <img
-            src="https://evtinbasein.com/wp-content/uploads/2023/02/6-9.jpg"
+            src="https://glory-relaxation.com/assets/img/1920-1080/Glory-spa-ajman-slider-1.jpg"
             className="w-100 shadow-1-strong rounded mb-4"
             alt="Boomboom"
             data-aos="zoom-in-left"
