@@ -6,12 +6,12 @@ import "aos/dist/aos.css";
 import "./assets/css/homepage.css"; 
 
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import ClassItem from "./components/ClassItem";
-import Transformations from "./components/Transformations";
-import SpaCenter from "./components/SpaCenter";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
+import ClassItem from "./components/Classes/ClassItem";
+import Transformations from "./components/Transformations/Transformations";
+import SpaCenter from "./components/SpaCenters/SpaCenter";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   

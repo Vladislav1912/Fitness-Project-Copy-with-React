@@ -1,6 +1,7 @@
 import React from 'react'
 import { TransformationsData } from './TransformationsData'
 import TransformationsItem from './TransformationsItem'
+import '../../assets/css/homepage.css';
 export default function Transformations() {
     return (
         <div>

@@ -1,16 +1,16 @@
 import React from 'react';
-import Main from './Main';
-import NewHere from './NewHere';
-import InfoMain from './InfoMain';
-import ClassItem from './ClassItem';
-import Wizztop from './Wizztop';
+import Main from './main/Main'
+import NewHere from './NewHere/NewHere';
+import InfoMain from './Info/InfoMain';
+import ClassItem from './Classes/ClassItem';
+import Wizztop from './WhyChoseUs/Wizztop';
 import '../assets/css/homepage.css';
 
 
 export default function Home() {
   return (
     <div>
-         <Main />
+         <Main/>
          <NewHere />
          <InfoMain />
          <ClassItem />

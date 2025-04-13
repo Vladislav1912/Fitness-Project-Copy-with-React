@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/homepage.css';
+import '../../assets/css/homepage.css';
 import {FaFacebook , FaInstagram,} from 'react-icons/fa'
 
 export default function Info({instructor}) {

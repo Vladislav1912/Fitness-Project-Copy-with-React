@@ -1,7 +1,7 @@
 import React from 'react';
 import ClassItem from './ClassItem'; 
 import { ClassesData } from './classesData';
-import '../assets/css/homepage.css';
+import '../../assets/css/homepage.css';
 
 export default function ClassesMain() {
   console.log('ClassesData: ', ClassesData);

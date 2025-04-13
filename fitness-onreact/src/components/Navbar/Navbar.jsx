@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/css/homepage.css";
+import '../../assets/css/homepage.css';
 import {FaFacebook , FaInstagram, FaTwitter} from 'react-icons/fa'
 export default function Navbar() {
   return (
