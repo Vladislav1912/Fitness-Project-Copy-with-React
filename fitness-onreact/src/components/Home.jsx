@@ -1,8 +1,7 @@
 import React from 'react';
 import Main from './main/Main'
 import NewHere from './NewHere/NewHere';
-import InfoMain from './Info/InfoMain';
-import ClassItem from './Classes/ClassItem';
+import Info from './Info/Info';
 import Wizztop from './WhyChoseUs/Wizztop';
 import '../assets/css/homepage.css';
 
@@ -12,8 +11,7 @@ export default function Home() {
     <div>
          <Main/>
          <NewHere />
-         <InfoMain />
-         <ClassItem />
+         <Info />
          <Wizztop />
          
     </div>

@@ -12,6 +12,7 @@ import ClassItem from "./components/Classes/ClassItem";
 import Transformations from "./components/Transformations/Transformations";
 import SpaCenter from "./components/SpaCenters/SpaCenter";
 import Footer from "./components/Footer/Footer";
+import ClassesList from "./components/Classes/ClassesList";
 
 function App() {
   
@@ -30,7 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/classes" element={<ClassItem />} />
+          <Route path="/classes/ClassesList" element={<ClassesList />} />
           <Route path="/transformations" element={<Transformations />} />
           <Route path="/spa-center" element={<SpaCenter />} />
         </Routes>

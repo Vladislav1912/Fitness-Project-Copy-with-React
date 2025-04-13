@@ -274,12 +274,12 @@ color: red;
     font-size: 22px;
     color: gray;
 }
-/* .about-cardl .card-body {
+.about-cardl .card-body {
     display: inline-block;
     margin-left: 12px;
     font-size: 22px;
-    color: gray;
-} */
+    color: black;
+} 
 .card-b{
     padding: 0 21px;
 }
@@ -295,9 +295,9 @@ color: red;
     color: gray;
 }
 .card-so{
-    text-align: center;
-    margin-left: auto;
-    margin-right: 50px;
+    display: flex;
+    justify-content: right;
+    
 }
 .card-so i{
     display: block;
@@ -311,32 +311,124 @@ color: red;
     line-height: 30px;
 }
 
+/* AboutUS */
+
+.text-box{
+    background-image: url('https://www.fzsportsacademy.com/wp-content/uploads/2018/07/banner02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px; 
+    color: white; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  text-align: center;
+  padding: 20px;
+}
+
+#text-box-text {
+    color: red;
+}
+
+.text-box h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.text-box p {
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#buttonStyle {
+    transition: all .5s ease;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 28px;
+    color: black;
+}
+
+
+#buttonStyle:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.text-box p {
+    color: red;
+}
+.descriptionTitle{
+    font-size: 50px;
+}
+.description{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.aboutUS-container{
+    background-color:rgb(243 239 239 / 30%);
+}
+#textInCol{
+    font-weight: 700;
+    color: black;
+    font-size: 60px;
+}
+.text-column{
+    text-align: center;
+}
+#info-text {
+    color: red;
+}
+
+.aboutUS-container p {
+    font-size: 40px;
+    color: white;
+}
+.aboutUS-container h6{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.image-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 /* class */
-.class{
+.class-section {
+    background-color: rgb(243 239 239 / 30%);
     text-align: center;
-    background-color:rgb(243 239 239 / 30%);
     margin-bottom: 100px;
-}
-.class .container h3{
-    color: gray;
-    font-size: 22px;
-}
-.class .container h2{
-    font-size: 37px;
+  }
+  
+.class-m {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.card-content h2 {
     font-weight: 700;
-    margin-bottom: 42px;
-}
-.card-content{
-    position: relative;
-    text-align: left;
-}
-.class-m .card-content h2{font-weight: 700;}
-.class-m .card-content h3{
+  }
+  
+.card-content h3 {
     font-size: 18px;
     color: gray;
-}
-.class-m .card-content .price{
+  }
+  
+.price {
     width: 60px;
     height: 60px;
     background: #fd0c0c;
@@ -350,6 +442,7 @@ color: red;
     font-weight: 700;
     font-size: 18px;
 }
+  
 .class-m p{
     text-align: left;
     margin-top: 25px;
@@ -359,31 +452,47 @@ color: red;
 }
 
 /* schedule */
-.table{
+.table {
+    width: 100%;
     border-collapse: separate;
+    border-spacing: 0;
+    border-color: white;
+  }
+  
+  .schedule table,
+  .schedule td,
+  .schedule th {
+  background-color: black !important;
+  color: white;
 }
-th ,td ,.table thead th, .table td,.table th{
-    border: 2px solid white;
-   
-   
-}
-.schedule{
+
+
+  th, td {
+    border: 2px solid white !important;
+  }
+  
+  .schedule {
     text-align: center;
     background-color: black;
     padding: 80px 20px;
     margin-bottom: 50px;
-}
-#WiztechText {
-    color: red;
-}
-.table{
-    border-color: white;
-}
-
-
-strong{
+  }
+  
+  .schedule td {
     color: white;
-}
+    padding: 16px;
+    border: 2px solid white;
+    vertical-align: middle;
+  }
+  
+  #WiztechText {
+    color: red;
+  }
+  
+  strong {
+    color: white;
+  }
+  
 /* contact */
 .contact{
     overflow: hidden;

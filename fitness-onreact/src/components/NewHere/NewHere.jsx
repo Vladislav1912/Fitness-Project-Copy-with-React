@@ -13,7 +13,7 @@ export default function NewHere() {
           <h4>Вземи членска карта, с която получаваш използване на фитнес залите ни, 20% отстъпка на всеки от нашите
             продукти и ако сте членове от 3 месеца, цената на карта спада с 30% за 2 месеца</h4>
 
-          <button onClick="showPrice()" id="btn-member" className="btn-add">СТАНИ ЧЛЕН ДНЕС</button>
+          <button id="btn-member" className="btn-add">СТАНИ ЧЛЕН ДНЕС</button>
         </div>
         <div className="col-lg-5 addtion-l " data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
           <h3>Работни дни и часове</h3>
