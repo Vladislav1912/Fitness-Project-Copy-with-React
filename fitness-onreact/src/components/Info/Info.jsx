@@ -48,13 +48,13 @@ export default function Info() {
         
         <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
           <div className="card about-cardl mg-b2">
-            <a href="../Joga Class/joga.html">
+            <Link to="/womenfitness">
               <img
                 src="https://s1.1zoom.me/b5050/856/Fitness_Black_background_Brown_haired_Belly_Hands_574821_1920x1080.jpg"
                 alt="joga instructor"
                 className="img-fluid"
               />
-            </a>
+            </Link>
             <div className="card-body">
               <div className="row">
                 <div className="col-xm-7 card-b">

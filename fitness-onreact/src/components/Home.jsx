@@ -4,6 +4,7 @@ import NewHere from './NewHere/NewHere';
 import Info from './Info/Info';
 import Wizztop from './WhyChoseUs/Wizztop';
 import '../assets/css/homepage.css';
+import ClassesList from './Classes/ClassesList';
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
          <Main/>
          <NewHere />
          <Info />
+         <ClassesList/>
          <Wizztop />
          
     </div>
